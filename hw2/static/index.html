@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+    <input type="text" id="query" />
+    <button id="submit-btn">Calculate</button>
+    <p id="result"></p>
+    <script>
+      const input = document.getElementById("query");
+      const btn = document.getElementById("submit-btn");
+      const result = document.getElementById("result");
+
+      const sendRequest = () => {
+        fetch("http://localhost:49123/calculate", {
+          method: "POST",
+          body: JSON.stringify({
+            query: input.value,
+          }),
+        })
+          .then((resp) => resp.json())
+          .then((json) => (result.textContent = json.result));
+      };
+
+      input.addEventListener("keyup", (event) => {
+        if (event.key === "Enter") {
+          sendRequest();
+        }
+      });
+
+      btn.addEventListener("click", sendRequest);
+    </script>
+  </body>
+</html>
