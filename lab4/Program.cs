@@ -1,35 +1,22 @@
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace HelloForms
+namespace lab4
 {
-    public class MainForm : Form
+    internal static class Program
     {
-        Label label1 = new Label();
-
-        public MainForm()
-        {
-            this.SuspendLayout();
-
-            // Initialize your components here
-            this.label1.Text = "Hello, World!";
-
-            this.Controls.Add(label1);
-            this.ResumeLayout();
-            this.Name = "MainForm Name.";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MainForm Title!";
-
-        }
-    }
-
-    public class Program
-    {
-        public static void Main(string[] args)
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            Application.Run(new Form1());
         }
     }
 }
