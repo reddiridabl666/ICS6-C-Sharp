@@ -3,18 +3,18 @@
     public string strField = "";
     public int intField;
 
-    [CustomAttribute]
-    public int intFieldWithAttribute;
+    [Custom]
+    public int intFieldWithAttribute = 0;
 
-    public int Method(string str)
+    public Reflection()
     {
-        return strField.Length + str.Length;
+        strField = "field";
+        intField = 42;
     }
 
-    [CustomAttribute]
-    public int MethodWithAttribute(string str)
+    public void Method(string str)
     {
-        return Method(str);
+        Console.WriteLine("Method was called with arg '{0}'", str);
     }
 }
 
@@ -24,7 +24,40 @@ class Program
 {
     static int Main()
     {
+        var type = typeof(Reflection);
+        Console.WriteLine("Constructors:");
 
+        foreach (var elem in type.GetConstructors())
+        {
+            Console.WriteLine(elem);
+        }
+
+        Console.WriteLine("\nMethods:");
+
+        foreach (var elem in type.GetMethods())
+        {
+            Console.WriteLine(elem);
+        }
+
+        Console.WriteLine("\nFields:");
+
+        foreach (var elem in type.GetFields())
+        {
+            Console.WriteLine(elem);
+        }
+
+        Console.WriteLine("\nMembers with custom attribute:");
+
+        foreach (var elem in type.GetFields())
+        {
+            if (Attribute.IsDefined(elem, typeof(CustomAttribute)))
+            {
+                Console.WriteLine(elem);
+            }
+        }
+        Console.WriteLine();
+
+        type.GetMethod("Method")?.Invoke(new Reflection(), ["Hello"]);
         return 0;
     }
 }
