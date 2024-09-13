@@ -1,0 +1,5 @@
+{
+  "pen": { "name": "pen", "price": 5 },
+  "textbook": { "name": "textbook", "price": 10 },
+  "desk": { "name": "desk", "price": 100 }
+}
