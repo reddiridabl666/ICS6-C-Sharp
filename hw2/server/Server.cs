@@ -147,7 +147,8 @@ namespace Http
             }
             catch (Exception e)
             {
-                WriteResponse(stream, 400, e.Message);
+                var responseBody = JsonConvert.SerializeObject(new ErrorResponse(e.Message));
+                WriteResponse(stream, 400, responseBody);
             }
         }
 
@@ -226,6 +227,12 @@ namespace Http
     struct CalculateResult(int result)
     {
         public int result = result;
+    }
+
+
+    struct ErrorResponse(string result)
+    {
+        public string result = result;
     }
 
     struct CalculateQuery(string query)

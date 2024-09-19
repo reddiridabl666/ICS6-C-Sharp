@@ -9,7 +9,9 @@
             for (int j = 0; j < m; ++j)
             {
                 result[i, j] = Random.Shared.Next();
+                Console.Write(result[i, j].ToString() + " ");
             }
+            Console.WriteLine();
         }
 
         return result;
@@ -42,10 +44,12 @@
             Console.WriteLine("Error reading");
             return -1;
         }
-
         Func<int, int, List<int>> func = RandomEven;
 
+        Console.WriteLine("Random matrix:");
         var result = func(dimensions[0], dimensions[1]);
+
+        Console.WriteLine("\nEven numbers:");
         result.ForEach(elem => Console.Write("{0} ", elem));
         Console.WriteLine();
 

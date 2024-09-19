@@ -123,7 +123,13 @@ namespace Calc
                 // Console.WriteLine();
                 // Console.WriteLine();
 
-                var op = tokens[1];
+                if (validOperations.Contains(tokens[0][0]) && tokens[0] != "(")
+                {
+                    throw new Exception("operator " + stack.Peek() + " must be followed by a number");
+                }
+
+
+                var op = tokens.Count() > 1 ? tokens[1] : tokens[0];
                 if (op == "(")
                 {
                     throw new Exception("expected operator other than '('");
@@ -158,7 +164,7 @@ namespace Calc
 
         private void Error()
         {
-            throw new Exception("unexpected token");
+            throw new Exception("parenthesis mismatch");
         }
 
         private void Nop()

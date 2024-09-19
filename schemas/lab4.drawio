@@ -1,0 +1,171 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 YaBrowser/24.7.0.0 Safari/537.36" version="24.7.14">
+  <diagram name="Страница — 1" id="wMiGqEO-0glnp5uPPuF9">
+    <mxGraphModel dx="2960" dy="1930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=block;startFill=0;endSize=6;startSize=12;" edge="1" parent="1" source="NorWEVuiTPAekWZKlJ2_-1" target="NorWEVuiTPAekWZKlJ2_-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=block;startFill=0;endSize=6;startSize=12;" edge="1" parent="1" source="NorWEVuiTPAekWZKlJ2_-1" target="NorWEVuiTPAekWZKlJ2_-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=block;startFill=0;endSize=6;startSize=12;" edge="1" parent="1" source="NorWEVuiTPAekWZKlJ2_-1" target="NorWEVuiTPAekWZKlJ2_-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=block;startFill=0;endSize=6;startSize=12;" edge="1" parent="1" source="NorWEVuiTPAekWZKlJ2_-1" target="NorWEVuiTPAekWZKlJ2_-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=block;startFill=0;endSize=6;startSize=12;" edge="1" parent="1" source="NorWEVuiTPAekWZKlJ2_-1" target="NorWEVuiTPAekWZKlJ2_-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=block;startFill=0;endSize=6;startSize=12;" edge="1" parent="1" source="NorWEVuiTPAekWZKlJ2_-1" target="NorWEVuiTPAekWZKlJ2_-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-358" y="-10" />
+              <mxPoint x="-890" y="-10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-1" value="&lt;b&gt;Form&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-413" y="-90" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-2" value="MainForm" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1030" y="180" width="260" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-3" value="+ tracker: Tracker&lt;div&gt;- testerForm: AddTesterForm&lt;/div&gt;&lt;div&gt;-&amp;nbsp;assignTaskForm:&amp;nbsp;AssignTaskForm&lt;/div&gt;&lt;div&gt;-&amp;nbsp;changeStatusForm: ChangeStatusForm&lt;/div&gt;&lt;div&gt;- addTaskForm: A&lt;span style=&quot;background-color: initial;&quot;&gt;ddTaskForm&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- listTasksForm: L&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;istTasksForm&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NorWEVuiTPAekWZKlJ2_-2">
+          <mxGeometry y="26" width="260" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NorWEVuiTPAekWZKlJ2_-2">
+          <mxGeometry y="130" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-5" value="+ refresh( )&lt;div&gt;-&amp;nbsp;addTesterBtn_Click(object, EventArgs)&lt;/div&gt;&lt;div&gt;-&amp;nbsp;assignTaskBtn_Click(object, EventArgs)&lt;br&gt;&lt;/div&gt;&lt;div&gt;-&amp;nbsp;addTaskBtn_Click(object, EventArgs)&lt;br&gt;&lt;/div&gt;&lt;div&gt;-&amp;nbsp;changeStatusBtn_Click(object, EventArgs)&lt;br&gt;&lt;/div&gt;&lt;div&gt;-&amp;nbsp;listTasksBtn_Click(object, EventArgs)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NorWEVuiTPAekWZKlJ2_-2">
+          <mxGeometry y="138" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-6" value="&lt;span style=&quot;text-align: left; background-color: initial;&quot;&gt;L&lt;/span&gt;&lt;span style=&quot;text-align: left; background-color: initial;&quot;&gt;istTasksForm&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="380" width="240" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-7" value="- form: MainForm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NorWEVuiTPAekWZKlJ2_-6">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NorWEVuiTPAekWZKlJ2_-6">
+          <mxGeometry y="52" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-9" value="+ listTasksBtn_Click(object, EventArgs)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NorWEVuiTPAekWZKlJ2_-6">
+          <mxGeometry y="60" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-10" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ChangeStatusForm&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="499" width="270" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-11" value="- form: MainForm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NorWEVuiTPAekWZKlJ2_-10">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NorWEVuiTPAekWZKlJ2_-10">
+          <mxGeometry y="52" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-13" value="+ changeStatusBtn_Click(object, EventArgs)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NorWEVuiTPAekWZKlJ2_-10">
+          <mxGeometry y="60" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-14" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;AssignTaskForm&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="260" width="240" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-15" value="- form: MainForm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NorWEVuiTPAekWZKlJ2_-14">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NorWEVuiTPAekWZKlJ2_-14">
+          <mxGeometry y="52" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-17" value="+ assignTaskBtn_Click(object, EventArgs)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NorWEVuiTPAekWZKlJ2_-14">
+          <mxGeometry y="60" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-18" value="&lt;div style=&quot;text-align: left;&quot;&gt;AddTesterForm&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="136" width="240" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-19" value="- form: MainForm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NorWEVuiTPAekWZKlJ2_-18">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NorWEVuiTPAekWZKlJ2_-18">
+          <mxGeometry y="52" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-21" value="+ addTesterBtn_Click(object, EventArgs)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NorWEVuiTPAekWZKlJ2_-18">
+          <mxGeometry y="60" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-22" value="&lt;div style=&quot;text-align: left;&quot;&gt;AddTaskForm&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="20" width="240" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-23" value="- form: MainForm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NorWEVuiTPAekWZKlJ2_-22">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NorWEVuiTPAekWZKlJ2_-22">
+          <mxGeometry y="52" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-25" value="+ addTaskBtn_Click(object, EventArgs)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NorWEVuiTPAekWZKlJ2_-22">
+          <mxGeometry y="60" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=0;startArrow=diamondThin;startFill=1;endSize=24;startSize=24;" edge="1" parent="1" source="NorWEVuiTPAekWZKlJ2_-3" target="NorWEVuiTPAekWZKlJ2_-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=0;startArrow=diamondThin;startFill=1;endSize=24;startSize=24;" edge="1" parent="1" source="NorWEVuiTPAekWZKlJ2_-3" target="NorWEVuiTPAekWZKlJ2_-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=0;startArrow=diamondThin;startFill=1;endSize=24;startSize=24;" edge="1" parent="1" source="NorWEVuiTPAekWZKlJ2_-3" target="NorWEVuiTPAekWZKlJ2_-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=0;startArrow=diamondThin;startFill=1;endSize=24;startSize=24;" edge="1" parent="1" source="NorWEVuiTPAekWZKlJ2_-3" target="NorWEVuiTPAekWZKlJ2_-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=0;startArrow=diamondThin;startFill=1;endSize=24;startSize=24;" edge="1" parent="1" source="NorWEVuiTPAekWZKlJ2_-3" target="NorWEVuiTPAekWZKlJ2_-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-38" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=24;endArrow=diamondThin;endFill=1;" edge="1" parent="1" source="NorWEVuiTPAekWZKlJ2_-39" target="NorWEVuiTPAekWZKlJ2_-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-39" value="Task" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1350" y="-50" width="160" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-40" value="+ name: string&lt;div&gt;+ description: string&lt;/div&gt;&lt;div&gt;+ status: string&lt;/div&gt;&lt;div&gt;+ dueTo: DateTime&lt;/div&gt;&lt;div&gt;+ assignee: Tester&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NorWEVuiTPAekWZKlJ2_-39">
+          <mxGeometry y="26" width="160" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-41" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NorWEVuiTPAekWZKlJ2_-39">
+          <mxGeometry y="110" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-42" value="+ ToString( ): string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NorWEVuiTPAekWZKlJ2_-39">
+          <mxGeometry y="118" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=24;endArrow=diamondThin;endFill=1;" edge="1" parent="1" source="NorWEVuiTPAekWZKlJ2_-44" target="NorWEVuiTPAekWZKlJ2_-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-44" value="Tester" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1140" y="-50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-45" value="+ name: string&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NorWEVuiTPAekWZKlJ2_-44">
+          <mxGeometry y="26" width="160" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-46" value="&#xa;&#xa;" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NorWEVuiTPAekWZKlJ2_-44">
+          <mxGeometry y="50" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-47" value="Tracker" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1370" y="134" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-48" value="- tasks: Dictionary&amp;lt;string, Task&amp;gt;&lt;div&gt;- testers: Dictionary&amp;lt;string, Tester&amp;gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NorWEVuiTPAekWZKlJ2_-47">
+          <mxGeometry y="26" width="200" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-49" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NorWEVuiTPAekWZKlJ2_-47">
+          <mxGeometry y="70" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-50" value="+ AddTester(Tester)&lt;div&gt;+ AddTask(Task)&lt;/div&gt;&lt;div&gt;+ AssignTask(string, string): bool&lt;/div&gt;&lt;div&gt;+ SetStatus(string, string): bool&lt;/div&gt;&lt;div&gt;+ List(string): Task[ ]&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NorWEVuiTPAekWZKlJ2_-47">
+          <mxGeometry y="78" width="200" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-51" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;fontSize=12;curved=1;entryX=1.005;entryY=0.156;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="NorWEVuiTPAekWZKlJ2_-45" target="NorWEVuiTPAekWZKlJ2_-40">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1261" y="104" as="sourcePoint" />
+            <mxPoint x="-1260" y="151" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NorWEVuiTPAekWZKlJ2_-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=1;endSize=24;" edge="1" parent="1" source="NorWEVuiTPAekWZKlJ2_-50" target="NorWEVuiTPAekWZKlJ2_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

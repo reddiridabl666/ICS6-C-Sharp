@@ -54,7 +54,7 @@ class Program
 
         var db = Database.Deserialize(fileData);
 
-        Console.WriteLine("Input customer name and discount");
+        Console.WriteLine("Input customer name, address and discount");
         var customerParts = Console.ReadLine()?.Split();
         if (customerParts == null)
         {
@@ -74,7 +74,7 @@ class Program
 
         var order = new Order(Random.Shared.Next(), customer, price, orderLines);
 
-        using var resultFile = File.OpenWrite("order.json");
+        using var resultFile = File.Open("order.json", FileMode.Create);
         resultFile.Write(Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(order)));
         return 0;
     }

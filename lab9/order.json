@@ -1,11 +1,11 @@
 {
-  "id": 757088777,
+  "id": 534745971,
   "customer": { "name": "leonid", "address": "Moscow", "discount": 0.9 },
   "discount": 0.9,
-  "price": 369.0,
+  "price": 652.5,
   "lines": [
-    { "product": { "name": "pen", "price": 5.0 }, "num": 8 },
-    { "product": { "name": "textbook", "price": 10.0 }, "num": 7 },
-    { "product": { "name": "desk", "price": 100.0 }, "num": 3 }
+    { "product": { "name": "pen", "price": 5.0 }, "num": 7 },
+    { "product": { "name": "textbook", "price": 10.0 }, "num": 9 },
+    { "product": { "name": "desk", "price": 100.0 }, "num": 6 }
   ]
 }
