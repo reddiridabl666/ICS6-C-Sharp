@@ -21,7 +21,7 @@ namespace lab12
             {Tile.Cross, Properties.Resources.cross},
             {Tile.Circle, Properties.Resources.circle},
         };
-        
+
         Dictionary<Tile, string> turnText = new Dictionary<Tile, string> {
             {Tile.Cross, "крестиков"},
             {Tile.Circle, "ноликов"},
@@ -70,7 +70,8 @@ namespace lab12
                 if (turn == Tile.Cross)
                 {
                     turn = Tile.Circle;
-                } else
+                }
+                else
                 {
                     turn = Tile.Cross;
                 }
@@ -89,7 +90,7 @@ namespace lab12
                 GameOver(result);
                 return;
             }
-            
+
             result = IsGameOverColumn();
             if (result != Tile.Blank)
             {
@@ -155,7 +156,7 @@ namespace lab12
 
             return Tile.Blank;
         }
-        
+
         private Tile IsGameOverColumn()
         {
             uint crossColumn = 0;
@@ -199,7 +200,7 @@ namespace lab12
             {
                 return gameState[0, 0];
             }
-            
+
             if (gameState[0, 2] == gameState[1, 1] && gameState[1, 1] == gameState[2, 0])
             {
                 return gameState[0, 2];
@@ -232,4 +233,3 @@ namespace lab12
         }
     }
 }
- 
